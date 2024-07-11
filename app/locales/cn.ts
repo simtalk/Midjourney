@@ -4,7 +4,7 @@ import { SubmitKey } from "../store/config";
 const isApp = !!getClientConfig()?.isApp;
 
 const cn = {
-  WIP: "该功能在玩命开发中……",
+  WIP: "该功能玩命开发中……",
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
@@ -329,9 +329,9 @@ const cn = {
   Mask: {
     Name: "面具",
     Page: {
-      Title: "预设角色面具",
+      Title: "预设角色场景",
       SubTitle: (count: number) => `${count} 个预设角色定义`,
-      Search: "搜索角色面具",
+      Search: "搜索角色场景",
       Create: "新建",
     },
     Item: {
